@@ -1,0 +1,67 @@
+@font-face {
+  font-family: poppins;
+  src: url(poppins.ttf);
+}
+
+:root {
+  --dark: #191919;
+  --light: #7D0A0A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li,
+button,
+input {
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: poppins;
+  color: #fff;
+  background-color: var(--dark);
+}
+
+.header {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light);
+}
+
+.header a {
+  font-size: 23px;
+  color: var(--dark);
+  letter-spacing: 1px;
+}
+
+.header a img {
+  filter: invert(100);
+}
+
+.nav {
+    max-width: 1440px;
+      margin: auto;
+  display: block;
+}
+
+.nav a {
+  width: 90%;
+  margin: 7px auto;
+  display: block;
+  text-align: left;
+  font-size: 19px;
+  letter-spacing: 1px;
+  background-color: #E3651D;
+}
